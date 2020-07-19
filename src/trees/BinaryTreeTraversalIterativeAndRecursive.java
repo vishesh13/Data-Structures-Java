@@ -2,6 +2,11 @@ package trees;
 
 import java.util.Stack;
 
+/**
+ * Tree Node
+ * @author Bishesh
+ *
+ */
 class Node {
 	Node left, right;
 	int data;
@@ -12,6 +17,11 @@ class Node {
 	}
 }
 
+/**
+ * Java class containing Binary Tree Node traversal methods
+ * @author Bishesh
+ *
+ */
 public class BinaryTreeTraversalIterativeAndRecursive {
 	Node root;
 
