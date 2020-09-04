@@ -1,8 +1,5 @@
 package trees;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * Tree Node
  * 
@@ -27,7 +24,6 @@ class SumTreeNode {
  */
 public class SumTree {
 	SumTreeNode root;
-	Queue<SumTreeNode> queue = new LinkedList<SumTreeNode>();
 
 	/**
 	 * Method to transform Binary Tree to sum tree
